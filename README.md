@@ -76,7 +76,7 @@ irate和rate都用于计算某个指标再一定时间间隔内的变化速率�
 + floor：参数为instance-vector，舍弃小数部分取整
 
 ### by的用法
-与mysql的group by类似，即按照某个label进行聚合操作。
+与mysql的group by类似，即按照某个label进行分类，然后每个分类再进行聚合操作。
 比如：
 + sum by(label)：按照label分类，然后每个分类进行sum聚合
 + avg by(lable)：按照label分类，然后每个分类进行avg聚合
